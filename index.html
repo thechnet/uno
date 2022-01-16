@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>UNO</title>
+    <link rel="icon" href="logo.png" type="image/png">
+  </head>
+  <body>
+    <main>
+      <style>
+        body {
+          background-color: rgb(48, 19, 19);
+        }
+        .parent {
+          display: flex;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .child {
+          text-align: center;
+          margin: 100px;
+        }
+        img {
+          width: 200px;
+          filter: drop-shadow(0 0 0.75rem rgb(160, 30, 30));
+        }
+        figcaption {
+          font-family: sans-serif;
+          font-weight: bold;
+          font-size: 30px;
+          margin-top: 20px;
+          color: rgb(240, 240, 240);
+          transition: color .2s ease-in-out;
+        }
+        figcaption:hover {
+          color: rgb(255, 255, 255);
+        }
+        a {
+          text-decoration: none;
+        }
+      </style>
+      <div class="parent">
+        <div class="child">
+          <a href="uno.html">
+            <img src="logo.png">
+            <figcaption>Begin Game</figcaption>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
